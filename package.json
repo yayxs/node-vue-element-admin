@@ -1,5 +1,5 @@
 {
-  "name": "node-app",
+  "name": "node-restful-demo",
   "version": "1.0.0",
   "description": "node-restful-api",
   "main": "index.js",
