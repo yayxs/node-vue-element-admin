@@ -13,7 +13,7 @@ class Init {
     requireDirectory(module, "../app/api", { visit: visitor });
 
     function visitor(obj){
-      console.log(obj)
+      // console.log(obj)
       if (obj instanceof Router) {
         Init.app.use(obj.routes());
       }
