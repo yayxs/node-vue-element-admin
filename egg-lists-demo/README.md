@@ -1,6 +1,6 @@
-# egg-demo
+# lists-demo
 
-a demo
+A demo that returns list data
 
 ## QuickStart
 

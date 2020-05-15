@@ -1,15 +1,17 @@
 {
-  "name": "egg-demo",
+  "name": "lists-demo",
   "version": "1.0.0",
-  "description": "a demo",
+  "description": "A demo that returns list data",
   "private": true,
   "egg": {
     "declarations": true
   },
   "dependencies": {
     "egg": "^2.15.1",
+    "egg-mysql": "^3.0.0",
     "egg-scripts": "^2.11.0",
-    "egg-swagger-doc": "^2.3.2"
+    "egg-sequelize": "^5.2.1",
+    "mysql2": "^2.1.0"
   },
   "devDependencies": {
     "autod": "^3.0.1",
@@ -18,14 +20,15 @@
     "egg-ci": "^1.11.0",
     "egg-mock": "^3.21.0",
     "eslint": "^5.13.0",
-    "eslint-config-egg": "^7.1.0"
+    "eslint-config-egg": "^7.1.0",
+    "sequelize-cli": "^5.5.1"
   },
   "engines": {
     "node": ">=10.0.0"
   },
   "scripts": {
-    "start": "egg-scripts start --daemon --title=egg-server-egg-demo",
-    "stop": "egg-scripts stop --title=egg-server-egg-demo",
+    "start": "egg-scripts start --daemon --title=egg-server-lists-demo",
+    "stop": "egg-scripts stop --title=egg-server-lists-demo",
     "dev": "egg-bin dev",
     "debug": "egg-bin debug",
     "test": "npm run lint -- --fix && npm run test-local",

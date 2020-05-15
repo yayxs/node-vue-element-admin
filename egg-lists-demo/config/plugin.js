@@ -6,10 +6,19 @@
 //   // static: {
 //   //   enable: true,
 //   // }
+
+
 // };
 
 
-exports.swaggerdoc = {
+exports.mysql = {
   enable: true,
-  package: 'egg-swagger-doc',
+  package: 'egg-mysql',
+};
+exports.sequelize = {
+  enable: true,
+  package: 'egg-sequelize',
+};
+exports.csrf = {
+  enable: false,
 };
