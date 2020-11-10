@@ -2,16 +2,16 @@
 
 由之前的以一个`master` 分支，管理多个项目，拆分为不同的分支
 
-- master // 默认 express 的小 demo
-- koa2 // git checkout koa2 分支 ，存放的是 koa2 的案例小 demo
+```
+  - master // 默认 express 的小 demo
+  - koa2 // git checkout koa2 分支 ，存放的是 koa2 的案例小 demo
+```
 
 主要包括 第三方 模块 `multer` 等的演练
 
-```
-[express 分支传送门](https://github.com/yayxs/node-api-service)
+- [express 分支传送门](https://github.com/yayxs/node-api-service)
 
-[koa2 分支传送门](https://github.com/yayxs/node-api-service/tree/koa2)
-```
+- [koa2 分支传送门](https://github.com/yayxs/node-api-service/tree/koa2)
 
 ## 客户端发送请求的方式
 
