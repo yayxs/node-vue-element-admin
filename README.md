@@ -1,5 +1,36 @@
-## 数据
+## 常用操作
 
--[全国新型冠状病毒肺炎疫情相关网站汇总](https://zhuanlan.zhihu.com/p/104024279)
+### 路由处理
 
--[头条疫情热点](https://i.snssdk.com/feoffline/hot_list/template/hot_list/forum_share.html?forum_id=1656388947394568&is_web_refresh=1)
+```js
+const Router = require("koa-router");
+
+const router = new Router({
+  prefix: "/users",
+});
+
+router.post("/", (ctx, next) => {
+  ctx.response.body = "users /";
+});
+
+module.exports = router;
+```
+
+### 文件上传
+
+```js
+const Router = require("koa-router");
+const multer = require("koa-multer");
+const router = new Router({
+  prefix: "/upload",
+});
+
+const upload = multer({
+  dest: "./upload/",
+});
+router.post("/avatar", upload.single("avatar"), (ctx, next) => {
+  console.log(ctx.req.file);
+});
+
+module.exports = router;
+```
