@@ -1,13 +1,13 @@
 {
   "name": "node-spider",
   "version": "1.0.0",
-  "main": "index.js",
-  "repository": "https://github.com/yayxs/node-api-service.git",
-  "author": "yangwl <leaderywl@163.com>",
+  "repository": "https://github.com/yayxs/use-node-examples.git",
+  "author": "vast <leaderywl@163.com>",
   "license": "MIT",
   "dependencies": {
-    "axios": "^0.21.0",
-    "cheerio": "^1.0.0-rc.3",
-    "mysql": "^2.18.1"
+    "axios": "^0.21.1",
+    "cheerio": "^1.0.0-rc.6",
+    "mysql": "^2.18.1",
+    "request": "^2.88.2"
   }
 }
