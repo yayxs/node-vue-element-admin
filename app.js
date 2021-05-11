@@ -14,6 +14,6 @@ app.use( async(ctx,next)=>{
     ctx.body = `weixin `
 })
 
-app.listen(80,()=>{
-    console.log(`http://localhost:80`)
+app.listen(3003,()=>{
+    console.log(`http://localhost:3003`)
 })
